@@ -12,7 +12,9 @@ My codes for processing and visualizing data for the seminar paper "Social Hydro
 
 ## 4. CMIP6
 
-`cmip6_cds_downloader.py` downloads CMIP6 data from the Copernicus Climate Data Store (CDS) using the cdsapi Python package.
+### 4.1. Download
+
+`04_CMIP6/cmip6_cds_downloader.py` downloads CMIP6 data from the Copernicus Climate Data Store (CDS) using the cdsapi Python package.
 
 The script iterates through all combinations of model, scenario, and variable, downloads the ZIP archive as provided by CDS, extracts contained files, removes any additional auxiliary files, and removes the ZIP if successful. Errors are logged to 'error.log'.
 
